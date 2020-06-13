@@ -1,5 +1,5 @@
 """
-    This script sums two numbers, presents a result and tell 
+    This script sums two numbers, presents a result and tells 
     which one is greater and which one is smaller. 
     It explores simple concepts like variables, loops, 
     flow control, functions, strings and integers
