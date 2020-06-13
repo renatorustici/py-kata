@@ -22,5 +22,8 @@ def doIt():
     print("The function was executed.")
     return
 
-if __name__ == '__main__': # True when executing from the shell
+def main(): # Keeps things more organized and intuitive
     doIt()
+
+if __name__ == '__main__': # True when executing from the shell
+    main()
