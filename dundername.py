@@ -7,23 +7,23 @@
 
     1)
         import dundername
-        dundername.doIt()
+        dundername.do_it()
 
     2)
-        from dundername import doIt
-        doIt()
+        from dundername import do_it
+        do_it()
 
     When calling from the shell the script executes automatically.
 
     Author: Renato Montenegro Rustici
 """
 
-def doIt():
+def do_it():
     print("The function was executed.")
     return
 
 def main(): # Keeps things more organized and intuitive
-    doIt()
+    do_it()
 
-if __name__ == '__main__': # True when executing from the shell
+if __name__ == "__main__": # True when executing from the shell
     main()

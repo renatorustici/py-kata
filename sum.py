@@ -7,24 +7,24 @@
     Author: Renato Montenegro Rustici
 
 """
-def fSum(iX, iY):
-    iResult = iX + iY
-    return iResult
+def sum(x, y):
+    result = x + y
+    return result
     
 while True:
-    iNum1 = int(input("Type the first number: "))
-    iNum2 = int(input("Type the second number: "))
+    x = int(input("Type the first number: "))
+    y = int(input("Type the second number: "))
 
-    print(f"The first number is {iNum1}")
-    print(f"The second number is {iNum2}")
+    print(f"The first number is {x}")
+    print(f"The second number is {y}")
 
-    iSum = fSum(iNum1, iNum2)
+    total = sum(x, y)
 
-    print(f"The sum is {iSum}")
+    print(f"The sum is {total}")
 
-    strContinue = str(input("Do you want to continue? (y/n) "))
+    should_continue = str(input("Do you want to continue? (y/n) "))
 
-    if strContinue.lower() == "n":
+    if should_continue.lower() == "n":
         break
 
     

@@ -9,10 +9,12 @@
 import sys
 
 try:
-    fSample = open("foo.txt", "r+")
-    print(f"File {fSample.name} is now open")
-    fSample.close()
+    sample_file = open("foo.txt", "r+")
+    print(f"File {sample_file} is now open")
+    sample_file.close()
+    print(f"File {sample_file} is now closed")
     sys.exit(0)
+
 except OSError as systemError:
     print("Error opening file: {0}".format(systemError))
     sys.exit(1)
