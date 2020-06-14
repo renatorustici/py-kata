@@ -1,7 +1,5 @@
 # py-kata
 
-Index
-
 arguments
 
     Shows how to receive and deal with arguments passed to the script.
