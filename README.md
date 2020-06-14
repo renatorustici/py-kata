@@ -16,6 +16,10 @@ helloworld
 
     Just the plain simple classic.
 
+lists
+
+    Shows how to use and execute simple operations with lists
+
 sum
 
     Sums two numbers. This script shows how to apply simple concepts like functions, loops, user input and variables.
