@@ -18,7 +18,7 @@ helloworld
 
 lists
 
-    Shows how to use and execute simple operations with lists
+    Shows how to use and execute simple operations on lists
 
 sum
 
